@@ -102,7 +102,7 @@
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Social" aria-expanded="true"
                 aria-controls="Social">
                 <i class="fas fa-fw fas fa-hospital-alt"></i>
-                <span>ประเมินปัจจัยเอื้อ<br>ต่อภาวะสุขภาพ<br></span></a>
+                <span>ประเมินปัจจัยเอื้อ<br>ต่อภาวะสุขภาพ</span></a>
             </a>
             <div id="Social" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">

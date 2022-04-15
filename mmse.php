@@ -66,8 +66,7 @@
                     <hr>
                     <form name="assessment" action="reportmmse.php" method="post" enctype="multipart/form-data">
                     <div class="row shadow alert alert-warning">
-
-                        <h4 style="    margin-top: 1rem;"><label
+                        <h4 style="margin-top: 1rem;"><label
                                 class="font-weight-bold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 คำชี้แจง </label>
                             แบบสัมภาษณ์ชุดนี้มีวัตถุประสงค์เพื่อประเมินสมรรถภาพสมองของผู้สูงอายุที่มี

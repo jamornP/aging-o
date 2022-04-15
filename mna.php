@@ -62,11 +62,252 @@
                     </div>
 
                     <!-- Content Row ###############################################################-->
-                    <div class="container">
-                    <div class="row">
-                        <img src="img/assessment/MNA.png" class="img-fluid" alt="...">
-                    </div>
-</div>
+                    <form name="assessment" action="reportmmse.php" method="post" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card-header"><h3>การคัดกรองภาวะโภชนะการในผู้สูงอายุ</h3></div>
+                                <div class="row">
+
+                                </div>
+                                <div class="alert alert-info" role="alert">
+                                    <h4 class="alert-heading">1. ในช่วง 3 เดือนที่ผ่านมา รับประทานอาหารได้น้อยลงเนื่องจากความอยากอาหารลดลง มีปัญหาการย่อย การเคี้ยว หรือปัญหาการกลืนหรือไม่</h4>
+                                    <hr>
+                                    <h5>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one1"
+                                                    value="0" checked>
+                                                <label class="form-check-label" for="one1">
+                                                    0 &nbsp; &nbsp;รับประทานอาหารน้อยลงอย่างมาก
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one2"
+                                                    value="1">
+                                                <label class="form-check-label" for="one2">
+                                                    1 &nbsp; &nbsp; รับประทานอาหารน้อยลงปานกลาง
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one3"
+                                                    value="2">
+                                                <label class="form-check-label" for="one3">
+                                                    2 &nbsp; &nbsp;รับประทานอาหารไม่เปลี่ยนแปลง
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </h5>
+                                </div>
+                                <div class="alert alert-info" role="alert">
+                                    <h4 class="alert-heading">2. </h4>
+                                    <hr>
+                                    <h5>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one1"
+                                                    value="0" checked>
+                                                <label class="form-check-label" for="one1">
+                                                    0 &nbsp; &nbsp;รับประทานอาหารน้อยลงอย่างมาก
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one2"
+                                                    value="1">
+                                                <label class="form-check-label" for="one2">
+                                                    1 &nbsp; &nbsp; รับประทานอาหารน้อยลงปานกลาง
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one3"
+                                                    value="2">
+                                                <label class="form-check-label" for="one3">
+                                                    2 &nbsp; &nbsp;รับประทานอาหารไม่เปลี่ยนแปลง
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one4"
+                                                    value="3">
+                                                <label class="form-check-label" for="one4">
+                                                    3 &nbsp; &nbsp;รับประทานอาหารไม่เปลี่ยนแปลง
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </h5>
+                                </div>
+                                <div class="alert alert-info" role="alert">
+                                    <h4 class="alert-heading">3. </h4>
+                                    <hr>
+                                    <h5>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one1"
+                                                    value="0" checked>
+                                                <label class="form-check-label" for="one1">
+                                                    0 &nbsp; &nbsp;รับประทานอาหารน้อยลงอย่างมาก
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one2"
+                                                    value="1">
+                                                <label class="form-check-label" for="one2">
+                                                    1 &nbsp; &nbsp; รับประทานอาหารน้อยลงปานกลาง
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one3"
+                                                    value="2">
+                                                <label class="form-check-label" for="one3">
+                                                    2 &nbsp; &nbsp;รับประทานอาหารไม่เปลี่ยนแปลง
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </h5>
+                                </div>
+                                <div class="alert alert-info" role="alert">
+                                    <h4 class="alert-heading">4. </h4>
+                                    <hr>
+                                    <h5>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one1"
+                                                    value="0" checked>
+                                                <label class="form-check-label" for="one1">
+                                                    0 &nbsp; &nbsp;รับประทานอาหารน้อยลงอย่างมาก
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one2"
+                                                    value="2">
+                                                <label class="form-check-label" for="one2">
+                                                    2 &nbsp; &nbsp; รับประทานอาหารน้อยลงปานกลาง
+                                                </label>
+                                            </div>
+                                        </div>
+                                        
+                                    </h5>
+                                </div>
+                                <div class="alert alert-info" role="alert">
+                                    <h4 class="alert-heading">5. </h4>
+                                    <hr>
+                                    <h5>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one1"
+                                                    value="0" checked>
+                                                <label class="form-check-label" for="one1">
+                                                    0 &nbsp; &nbsp;รับประทานอาหารน้อยลงอย่างมาก
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one2"
+                                                    value="1">
+                                                <label class="form-check-label" for="one2">
+                                                    1 &nbsp; &nbsp; รับประทานอาหารน้อยลงปานกลาง
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one3"
+                                                    value="2">
+                                                <label class="form-check-label" for="one3">
+                                                    2 &nbsp; &nbsp;รับประทานอาหารไม่เปลี่ยนแปลง
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </h5>
+                                </div>
+                                <div class="alert alert-info" role="alert">
+                                    <h4 class="alert-heading">6. </h4>
+                                    <hr>
+                                    <h5>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one1"
+                                                    value="0" checked>
+                                                <label class="form-check-label" for="one1">
+                                                    0 &nbsp; &nbsp;รับประทานอาหารน้อยลงอย่างมาก
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one2"
+                                                    value="1">
+                                                <label class="form-check-label" for="one2">
+                                                    1 &nbsp; &nbsp; รับประทานอาหารน้อยลงปานกลาง
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one3"
+                                                    value="2">
+                                                <label class="form-check-label" for="one3">
+                                                    2 &nbsp; &nbsp;รับประทานอาหารไม่เปลี่ยนแปลง
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one4"
+                                                    value="3">
+                                                <label class="form-check-label" for="one4">
+                                                    3 &nbsp; &nbsp;รับประทานอาหารไม่เปลี่ยนแปลง
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </h5>
+                                </div>
+                                <div class="alert alert-info" role="alert">
+                                    <h4 class="alert-heading">7. </h4>
+                                    <hr>
+                                    <h5>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one1"
+                                                    value="0" checked>
+                                                <label class="form-check-label" for="one1">
+                                                    0 &nbsp; &nbsp;รับประทานอาหารน้อยลงอย่างมาก
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="one" id="one2"
+                                                    value="3">
+                                                <label class="form-check-label" for="one2">
+                                                    3 &nbsp; &nbsp; รับประทานอาหารน้อยลงปานกลาง
+                                                </label>
+                                            </div>
+                                        </div>
+                                       
+                                    </h5>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                        
+                    </form>
                     <br>
                     
                     <hr>
